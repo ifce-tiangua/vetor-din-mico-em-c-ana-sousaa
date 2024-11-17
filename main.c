@@ -3,11 +3,12 @@
 
 int main() {
     int t;
+    int i;
     
     
     scanf("%d", &t);
 
-    
+
     if (t == 0) {
         printf("[vazio]\n");
         return 0;  
@@ -23,19 +24,19 @@ int main() {
     }
 
     
-    for (int i = 0; i < t; i++) {
-        scanf("%d", &vetor[i]);
+    for (i = 0; i < t; i++) {
+        scanf("%d", &vetor[i]);  
     }
 
     
     printf("[");
-    for (int i = 0; i < t; i++) {
-        printf("%d", vetor[i]);
+    for ( i = 0; i < t; i++) {
+        printf("%d", vetor[i]);  
         if (i < t - 1) {
             printf(",");  
         }
     }
-    printf("]\n");
+    printf("]\n");  
 
     
     free(vetor);
