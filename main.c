@@ -23,10 +23,15 @@ int main() {
         scanf("%d", &vetor[i]);
     }
 
-    
+      printf("[");
     for (i = 0; i < t; i++) {
-        printf("[%d] ", vetor[i]);
+        printf("%d", vetor[i]);
+        if (i < t - 1) {
+            printf(" ");  
+        }
     }
+    printf("]\n");
+
 
     
     free(vetor);
