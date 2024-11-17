@@ -27,7 +27,7 @@ int main() {
     for (i = 0; i < t; i++) {
         printf("%d", vetor[i]);
         if (i < t - 1) {
-            printf(" ");  
+            printf(",");  
         }
     }
     printf("]\n");
@@ -38,3 +38,4 @@ int main() {
 
     return 0;  
 }
+
