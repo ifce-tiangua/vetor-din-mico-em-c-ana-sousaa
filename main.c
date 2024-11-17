@@ -5,25 +5,24 @@ int main() {
     int t;
     
 
-    
     scanf("%d", &t);
 
     
     int *vetor = (int*)malloc(t * sizeof(int));
 
     
-    if (vetor == 0) {
+    if (vetor == NULL) {
         printf("[vazio]\n");
         return 0;  
     }
 
     
     for (int i = 0; i < t; i++) {
-    
         scanf("%d", &vetor[i]);
     }
 
-      printf("[");
+    
+    printf("[");
     for (int i = 0; i < t; i++) {
         printf("%d", vetor[i]);
         if (i < t - 1) {
@@ -32,11 +31,8 @@ int main() {
     }
     printf("]\n");
 
-
     
     free(vetor);
 
     return 0;  
 }
-
-
