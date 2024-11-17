@@ -3,7 +3,7 @@
 
 int main() {
     int tamanho;
-    int i;
+    
 
     
     scanf("%d", &tamanho);
@@ -18,13 +18,13 @@ int main() {
     int* vetor = (int*)malloc(tamanho * sizeof(int));
 
     
-    for (i = 0; i < tamanho; i++) {
+    for (int i = 0; i < tamanho; i++) {
         scanf("%d", &vetor[i]);
     }
 
     
     printf("[");
-    for (i = 0; i < tamanho; i++) {
+    for (int i = 0; i < tamanho; i++) {
         if (i != 0) {
             printf(",");
         }
