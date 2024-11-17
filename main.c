@@ -12,9 +12,9 @@ int main() {
     int *vetor = (int*)malloc(t * sizeof(int));
 
     
-    if (vetor == NULL) {
+    if (vetor == 0) {
         printf("[vazio]\n");
-        return 1;  
+        return 0;  
     }
 
     
