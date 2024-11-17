@@ -4,8 +4,14 @@
 int main() {
     int t;
     
-
+    
     scanf("%d", &t);
+
+    
+    if (t == 0) {
+        printf("[vazio]\n");
+        return 0;  
+    }
 
     
     int *vetor = (int*)malloc(t * sizeof(int));
