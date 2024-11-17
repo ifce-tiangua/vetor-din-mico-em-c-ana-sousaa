@@ -3,35 +3,36 @@
 
 int main() {
     int tamanho;
-
+    int i;
 
     
     scanf("%d", &tamanho);
 
     
     if (tamanho == 0) {
-    
         printf("[vazio]\n");
         return 0;
     }
 
-    int* vetor = (int*)malloc(tamanho * sizeof(int));
     
+    int* vetor = (int*)malloc(tamanho * sizeof(int));
 
-    for (int i = 0; i < tamanho; i++) {
+    
+    for (i = 0; i < tamanho; i++) {
         scanf("%d", &vetor[i]);
     }
 
-
+    
     printf("[");
-    for (int i = 0; i < tamanho; i++) {
+    for (i = 0; i < tamanho; i++) {
         if (i != 0) {
             printf(",");
         }
         printf("%d", vetor[i]);
     }
-    printf("]\n");  
- 
+    printf("]\n");
+
+    
     free(vetor);
 
     return 0;
