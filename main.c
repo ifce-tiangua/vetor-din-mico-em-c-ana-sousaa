@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stblid.h>
+
     
     int main()
     {
