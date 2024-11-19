@@ -23,10 +23,17 @@
        
        printf("[");
        for( int i = 0; i < t; i++){
-       printf("%d", vetor[i]);
-       if(i < t - 1){
-       printf(",");
-       }
+
+           if(i==n-1){
+
+               printf("%d", vetor[i);
+               
+           }else{
+
+               printf("%d, ", vetor[i);
+
+           }
+     
        }
     
       printf("]\n");
