@@ -12,7 +12,7 @@
        vetor = (int *)malloc(t*sizeof(int));
        
        if(t == 0){
-       printf("[vazio]\n");
+       printf("[vazio]");
        }
        
        
