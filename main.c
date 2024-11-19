@@ -26,11 +26,11 @@
 
            if(i==t-1){
 
-               printf("%d", vetor[i);
+               printf("%d", vetor[i]);
                
            }else{
 
-               printf("%d, ", vetor[i);
+               printf("%d, ", vetor[i]);
 
            }
      
