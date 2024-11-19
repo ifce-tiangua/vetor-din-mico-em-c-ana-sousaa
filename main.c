@@ -24,7 +24,7 @@
        printf("[");
        for( int i = 0; i < t; i++){
 
-           if(i==n-1){
+           if(i==t-1){
 
                printf("%d", vetor[i);
                
